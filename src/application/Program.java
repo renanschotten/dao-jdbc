@@ -39,6 +39,10 @@ public class Program {
 		newSeller.setName("Martha");
 		sellerDao.update(newSeller);
 		System.out.println("Updated!");
+		System.out.println();
+		System.out.println("--- TEST 6: seller delete ---");
+		sellerDao.deleteById(3);
+		System.out.println("Deleted!");
 	}
 
 }
